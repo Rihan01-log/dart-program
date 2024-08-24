@@ -376,12 +376,28 @@
 //   }
 // }
 // print(even);
+// print(odd);
+// }
   
 // }
 
-void main(){
-  String name="my name is rihan";
-  String b=name.split(' ').map((word)=>word[0].toUpperCase()+word.substring(1).toLowerCase()).join(' ');
-  print(b);
-}
+// void main(){
+//   String name="my name is rihan";
+//   String b=name.split(' ').map((word)=>word[0].toUpperCase()+word.substring(1).toLowerCase()).join(' ');
+//   print(b);
+// }
+
+// void main(){
+//   String name="rihan";
+//   String vowels="";
+//   for(int i=0;i<name.length;i++){
+
+  
+//     String letter=name[i];
+//     if('aeiou'.contains(letter)){
+//       vowels+=letter;
+//     }
+   
+//   } print(vowels.length);
+// }
 

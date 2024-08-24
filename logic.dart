@@ -571,12 +571,12 @@
 // String vowels="";
 //  for(int i=1;i<name.length;i++){
 //   String letter=name[i];
-//   if('aeiou'.contains(letter)){
+//   if(!'aeiou'.contains(letter)){
 //     vowels+=letter;
 //   }
   
 //  }
-// print(vowels.length);
+// print(vowels);
 // }
 
 
@@ -610,10 +610,44 @@
 //    print(second);
   
 // }
-void main(){
-String name="rihan rasehd";
-String a=name.replaceAll(' ',"");
-print(a);
+// void main(){
+// String name="rihan rasehd";
+// String a=name.replaceAll(' ',"");
+// print(a);
 
+// }
+
+
+// void main (){
+//  List name=['rihan','aju','anu','adinan','bindu'];
+//  List ne=name.where((e)=>e.startsWith('a')).toList();
+//  print(ne);
+
+// }
+
+// void main(){
+//   List num1=[1,2,3,4,6];
+//   List num2=[2,3,4];
+ 
+//   bool isSubset=num2.every((e)=>num1.contains(e));
+ 
+//   if(isSubset){
+//     print('$num2 is a subset');
+//   }else{
+//     print("$num2 is not a subset");
+
+//   }
+// //  }
+void main() {
+  String name = "rihan";
+  String nonVowels = "";
+  
+  for (int i = 0; i < name.length; i++) {
+    String letter = name[i];
+    if (!'aeiou'.contains(letter)) {
+      nonVowels += letter;
+    }
+  }
+  
+  print(nonVowels);
 }
-
