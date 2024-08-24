@@ -325,7 +325,6 @@
 // print(vowles.length);
 // }
 
-
 // Find the Length of the Longest Substring Without Repeating Characters
 
 // void main(){
@@ -362,6 +361,27 @@
 // }
 
 
-void main(){
+// void main(){
+// String name="rihan";
+// String even="";
+// String odd="";
+
+// for(int i=0;i<name.length;i++){
+//   if(i.isEven){
+//     even+=name[i].toUpperCase();
+//     odd+=name[i].toLowerCase();
+//   }else{
+//     even+=name[i].toLowerCase();
+//     odd+=name[i].toUpperCase();
+//   }
+// }
+// print(even);
   
+// }
+
+void main(){
+  String name="my name is rihan";
+  String b=name.split(' ').map((word)=>word[0].toUpperCase()+word.substring(1).toLowerCase()).join(' ');
+  print(b);
 }
+
