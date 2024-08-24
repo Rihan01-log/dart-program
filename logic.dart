@@ -625,29 +625,29 @@
 
 // }
 
-// void main(){
-//   List num1=[1,2,3,4,6];
-//   List num2=[2,3,4];
+void main(){
+  List num1=[1,2,3,4,6];
+  List num2=[2,3,4];
  
-//   bool isSubset=num2.every((e)=>num1.contains(e));
+  bool isSubset=num2.every((e)=>num1.contains(e));
  
-//   if(isSubset){
-//     print('$num2 is a subset');
-//   }else{
-//     print("$num2 is not a subset");
+  if(isSubset){
+    print('$num2 is a subset');
+  }else{
+    print("$num2 is not a subset");
 
-//   }
-// //  }
-void main() {
-  String name = "rihan";
-  String nonVowels = "";
-  
-  for (int i = 0; i < name.length; i++) {
-    String letter = name[i];
-    if (!'aeiou'.contains(letter)) {
-      nonVowels += letter;
-    }
   }
+ }
+// void main() {
+//   String name = "rihan";
+//   String nonVowels = "";
   
-  print(nonVowels);
-}
+//   for (int i = 0; i < name.length; i++) {
+//     String letter = name[i];
+//     if (!'aeiou'.contains(letter)) {
+//       nonVowels += letter;
+//     }
+//   }
+  
+//   print(nonVowels);
+// }
