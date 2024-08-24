@@ -625,19 +625,7 @@
 
 // }
 
-void main(){
-  List num1=[1,2,3,4,6];
-  List num2=[2,3,4];
- 
-  bool isSubset=num2.every((e)=>num1.contains(e));
- 
-  if(isSubset){
-    print('$num2 is a subset');
-  }else{
-    print("$num2 is not a subset");
 
-  }
- }
 // void main() {
 //   String name = "rihan";
 //   String nonVowels = "";
