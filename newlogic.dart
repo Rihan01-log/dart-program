@@ -228,8 +228,17 @@
 //   String c=date.replaceAll(',','/');
 //   print(c);
 // }
-void main(){
-  DateTime now=DateTime.now();
-  String formate="${now.day}/${now.month}/${now.year}";
-print(formate);
-}
+// void main(){
+//   DateTime now=DateTime.now();
+//   String formate="${now.day}/${now.month}/${now.year}";
+// print(formate);
+// }
+
+// void main(){
+//   List a = [1, 2, 3, 4.5, 6.6, 7.8];
+//  double b=0;
+//   for (var number in a){
+//     b+=number;
+    
+//   }print(b);
+// }
