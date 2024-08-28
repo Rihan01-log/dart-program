@@ -88,19 +88,19 @@
 
 // }
 
-void main(){
-String name="rihan";
-int vowels=0;
+// void main(){
+// String name="rihan";
+// int vowels=0;
 
-for(int i=0;i<name.length;i++){
-  // String letter=name[i];
-  if('aeiou'.contains(name[i])){
-   vowels++;
-  }
+// for(int i=0;i<name.length;i++){
+//   // String letter=name[i];
+//   if('aeiou'.contains(name[i])){
+//    vowels++;
+//   }
  
-}
- print(vowels);
-}
+// }
+//  print(vowels);
+// }
 
 
 
@@ -168,16 +168,13 @@ for(int i=0;i<name.length;i++){
 
 
 // void main(){
-//  List ax=["S","T","R","I","N","G"];
+//  List ax=["A","B","C","D","E",];
 
 //  for(int i= 0 ;i<ax.length;i++){
   
 //     String row=ax[i]*(i+1);
 //     print(row);    
-
-
 //  }
-
 
 // }
 
@@ -191,3 +188,24 @@ for(int i=0;i<name.length;i++){
 
 // }
 
+// void main(){
+// List a = [2.5, 5, 76, 7.3];
+// List b=[];
+// for(var c in a){
+//   if(c is double){
+//     b.add(c);
+//   }
+// }print(b);
+// }
+
+void main(){
+  int a=5;
+  
+  for(int i=1;i<=a;i++){
+  String row="";
+  for(int j=1;j<=i;j++){
+   row+=j.toString();
+  }
+  print(row);
+  }
+}

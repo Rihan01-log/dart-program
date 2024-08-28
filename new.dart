@@ -400,16 +400,146 @@
    
 //   } print(vowels.length);
 // }
-void main(){
-  List num1=[1,2,3,4,6];
-  List num2=[2,3,4];
+// void main(){
+//   List num1=[1,2,3,4,6];
+//   List num2=[2,3,4];
  
-  bool isSubset=num2.every((e)=>num1.contains(e));
+//   bool isSubset=num2.every((e)=>num1.contains(e));
  
-  if(isSubset){
-    print('$num2 is a subset');
-  }else{
-    print("$num2 is not a subset");
+//   if(isSubset){
+//     print('$num2 is a subset');
+//   }else{
+//     print("$num2 is not a subset");
 
-  }
- }
+//   }
+//  }
+
+// void main(){
+//    List a=[4,3,5,6,8,-3,-4];
+//    a.sort();
+//    if(a.length>1){
+//     int b=a[a.length-2];
+//     print(b);
+//    }
+   
+// }
+
+// void main(){
+//   List <dynamic>a=[4,3,5,6,8,12,9];
+//   a.sort();
+//   int b=a[a.length-2];
+//   print(b);
+// }
+
+// void main(){
+//   List a=[4,3,5,6,8,12,9];
+//   a.sort();
+//   print(a);
+//   int samll=a[1];
+//   print(samll);
+
+// int second=a[a.length-2];
+// print(second);
+  
+  
+// }
+
+// void main(){
+//   String name="rihan";
+//   int length=name.length;
+//   int middle=length~/2;
+
+//   if(length%2==0){
+//     print("${name[middle-1]}${name[middle]}");
+//   }else{
+//     print("${name[middle]}");
+//   }
+
+// }
+
+// void main(){
+//   String name="bridgeon";
+//   int length=name.length;
+//   int middle=length~/2;
+
+//   if(length %2==0){
+//     print('${name[middle-1]}${name[middle]}');
+  
+//   }else{
+//     print('${name[middle]}');
+//   }
+// }
+
+// void main(){
+//   String name="bridgeon";
+//   String vowels="";
+//   for(int i=1;i<name.length;i++){
+//     String letter=name[i];
+//     if(!'aeiou'.contains(letter)){
+//       vowels+=letter;
+//     }
+//   }print(vowels);
+// } 
+
+// void main(){
+//   int a=1;
+//   double b=a.toDouble();
+//   print(b);
+// }
+
+// void main(){
+//   List num = [1,2,3,2,4,4,5,6,7];
+//   Set a={};
+//   Set b={};
+//   for(var c in num){
+//     if(!a.add(c)){
+//       b.add(c);
+//     }
+//   }print(a);
+//   print(b);
+// }
+
+// void main(){
+//   String a="ABCDE";
+//   for(int i=0;i<a.length;i++){
+//     print(a.substring(0,i));
+//   }
+// }
+
+// void main(){
+// List a=[4,3,5,6,8,12,9];
+// Map b=a.asMap();
+// print(b);
+// }
+
+// void main(){
+//   double a=1.5;
+//   int b=a.toInt();
+//   print(b);
+// }
+
+// void main(){
+//   List a=[4,3,5,6,8,12,9];
+//   int b=a.reduce((a,b)=>a+b);
+//   print(b);
+// }
+
+// void main(){
+//   List a=["a","b","c"];
+//   for(int i=0;i<a.length;i++){
+//     String row=a[i]*(i+1);
+//     print(row);
+//   }
+// }
+// void main(){
+//   String a="rihan";
+//   int length=a.length;
+//   int middle=length~/2;
+
+//   if(length %2==0){
+//     print("${a[middle-1]}${a[middle]}");
+
+//   }else{
+//     print('${a[middle]}');
+//   }
+// }
