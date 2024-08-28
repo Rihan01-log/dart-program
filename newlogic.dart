@@ -198,14 +198,38 @@
 // }print(b);
 // }
 
-void main(){
-  int a=5;
+// void main(){
+//   int a=5;
   
-  for(int i=1;i<=a;i++){
-  String row="";
-  for(int j=1;j<=i;j++){
-   row+=j.toString();
-  }
-  print(row);
-  }
+//   for(int i=1;i<=a;i++){
+//   String row="";
+//   for(int j=1;j<=i;j++){
+//    row+=j.toString();
+//   }
+//   print(row);
+//   }
+// }
+
+// void main(){
+//   List a=[1,2,3,3,4,4,5];
+//   Set b={};
+//   List c=[];
+//   for (var d in a){
+//     if(b.add(d)){
+//       c.add(d);
+
+//     }
+//   }print(b);
+//   print(c);
+// }
+
+// void main(){
+//   String date="12,5,2001";
+//   String c=date.replaceAll(',','/');
+//   print(c);
+// }
+void main(){
+  DateTime now=DateTime.now();
+  String formate="${now.day}/${now.month}/${now.year}";
+print(formate);
 }
