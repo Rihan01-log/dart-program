@@ -11,7 +11,6 @@
 //   const String lowerCase="abcdefghi";
 //   const String no="1234567";
 //   const String spcial="!@#/&&*()><?";
-   
 
 //    final String allChar=upperCase+lowerCase+no+spcial;
 //    final Random random=Random();
@@ -25,7 +24,6 @@
 //  return password.toString();
 // }
 
-
 // void main(){
 
 // String password=generatePassword(10);
@@ -34,16 +32,14 @@
 // }
 
 // String generatePassword(int length){
- 
+
 //   const String upCase="ADCVDSFVBFHHMMNGFGN";
 //   const String lCase="avbxhygvbcnmnkygb";
 //   const String no="1234567890";
 //   const String sp=",./;'[]=-!@#%^&*";
 
-
 //   final String allChar=upCase+lCase+no+sp;
 //   final Random random=Random();
-   
 
 //    StringBuffer password=StringBuffer();
 
@@ -54,11 +50,10 @@
 // }
 
 // -----------------------------------------------------------------------------------------------------
- 
 
 // void main(){
- 
-//  String name="rihaaan"; 
+
+//  String name="rihaaan";
 //  int a=name.length;
 //  int middle= a ~/2;
 
@@ -68,10 +63,7 @@
 //   print("middle char:${name[middle]}");
 //  }
 
-
-
 // }
-
 
 // void main(){
 //  String name="rihan";
@@ -84,8 +76,6 @@
 //   print("Middle char:${name[middle]}");
 // }
 
-
-
 // }
 
 // void main(){
@@ -97,12 +87,10 @@
 //   if('aeiou'.contains(name[i])){
 //    vowels++;
 //   }
- 
+
 // }
 //  print(vowels);
 // }
-
-
 
 // void main(){
 //   String name="rihan";
@@ -144,14 +132,12 @@
 
 // }
 
-
-
 // void main(){
 // int a=5;
 // for(int i=a;i>=1;i--){
 //   String row="*"*i;
 //   print(row);
-  
+
 // }
 
 // }
@@ -166,18 +152,16 @@
 // }
 // }
 
-
 // void main(){
 //  List ax=["A","B","C","D","E",];
 
 //  for(int i= 0 ;i<ax.length;i++){
-  
+
 //     String row=ax[i]*(i+1);
-//     print(row);    
+//     print(row);
 //  }
 
 // }
-
 
 // void main(){
 //  String name="STRING";
@@ -200,7 +184,7 @@
 
 // void main(){
 //   int a=5;
-  
+
 //   for(int i=1;i<=a;i++){
 //   String row="";
 //   for(int j=1;j<=i;j++){
@@ -213,14 +197,11 @@
 // void main(){
 //   List a=[1,2,3,3,4,4,5];
 //   Set b={};
-//   List c=[];
-//   for (var d in a){
-//     if(b.add(d)){
-//       c.add(d);
 
-//     }
+//   for (var d in a){
+//     if(b.add(d));
 //   }print(b);
-//   print(c);
+
 // }
 
 // void main(){
@@ -239,6 +220,40 @@
 //  double b=0;
 //   for (var number in a){
 //     b+=number;
-    
+
 //   }print(b);
 // }
+
+// void main(){
+
+//    String name="rihan";
+//    String vowles="";
+//    for(int i=0;i<name.length;i++){
+//     String letter=name[i];
+//     if(!"aeiou".contains(letter)){
+//       vowles+=letter;
+//     }
+//    }print(vowles.length);
+// }
+
+void main() {
+  Solution solution = Solution();
+
+  String s = "abcd";
+  String t = "abcde";
+
+  String result = solution.findTheDifference(s, t);
+
+  print("The difference is: $result");
+}
+
+class Solution {
+  String findTheDifference(String s, String t) {
+    for (int i = 0; i < s.length; i++) {
+      if (t.split('').contains(s[i])) {
+        t = t.replaceFirst(s[i], '');
+      }
+    }
+    return t;
+  }
+}
