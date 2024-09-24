@@ -543,3 +543,32 @@
 //     print('${a[middle]}');
 //   }
 // }
+
+
+
+bool containsDuplicate(List<int> nums) {
+  Set<int> seen = {};  // Create an empty set to store seen numbers
+  
+  for (int num in nums) {
+    if (seen.contains(num)) {
+      return true;  // If the number is already in the set, it's a duplicate
+    }
+    seen.add(num);  // Add the number to the set
+  }
+  
+  return false;  // If no duplicates are found, return false
+}
+
+void main() {
+  // Example 1
+  List<int> nums1 = [1, 2, 3, 1];
+  print(containsDuplicate(nums1)); // Output: true
+
+  // Example 2
+  List<int> nums2 = [1, 2, 3, 4];
+  print(containsDuplicate(nums2)); // Output: false
+
+  // Example 3
+  List<int> nums3 = [1, 1, 1, 3, 3, 4, 3, 2, 4, 2];
+  print(containsDuplicate(nums3)); // Output: true
+}
