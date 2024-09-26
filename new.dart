@@ -18,7 +18,6 @@
 //  String name1=name.split(' ').join('');
 // print(name1);
 // }
- 
 
 //  void main(){
 //   String name="my name is rihan";
@@ -27,12 +26,11 @@
 //   List<String> capLetters=words.map((word){
 //     return word[0].toUpperCase()+ word.substring(1).toLowerCase();
 //   }).toList();
- 
+
 // String capWord=capLetters.join(' ');
 // print(capWord);
 
-
-// // or method 
+// // or method
 
 // String cap=name.split(' ').map((word)=>word[0].toUpperCase()+word.substring(1).toLowerCase()).join(' ');
 // print(cap);
@@ -45,23 +43,19 @@
 //   Set uniq={};
 //   for(var numb in num){
 //    if(uniq.add(numb)){
-//     dup.add(dup);  
+//     dup.add(dup);
 //    }
 //   }
 //   print(uniq);
 // }
 
-
-
 // void main() {
 //   List<String> stringList = ['1', '2', '3', '4'];
-  
-  
+
 //   List<int> intList = stringList.map(int.parse).toList();
 
-//   print(intList); 
+//   print(intList);
 // }
-
 
 // /or method--------------------------------
 //  void main(){
@@ -86,17 +80,15 @@
 //   }
 //  }
 
- 
 //  print(b);
 // }
 
 // void main(){
 //    List a=[5,5,8,9,2,1,5,10,12,130,1,4,55];
 //    int b=a.where((e)=>e>5).reduce((a,b)=>a+b);
-   
+
 //    print(b);
 // }
-
 
 // void main(){
 //   List no=[1,2,3,4,5];
@@ -128,10 +120,8 @@
 // void main(){
 //  String n="ABCD";
 //  String b=n.split('').join(",");
-//  print(b);  
+//  print(b);
 // }
-
-
 
 // void main(){
 //   String a="1234";
@@ -144,9 +134,7 @@
 // // dynamic b=a.toString();
 // // print(b.runtimeType);
 
-
 // // }
-
 
 // void main(){
 
@@ -156,15 +144,13 @@
 
 // }
 
-
 // void main(){
- 
+
 // List a=[1,1,2,2,3,3,4,5,5,8,8,9,10,10,];
 // List b=a.toSet().toList();
 // int sum=b.reduce((a,b)=>a+b);
 // print(b);
 // print(sum);
-
 
 // OR
 
@@ -174,21 +160,20 @@
 //    int sum=0;
 //    for(int numb in b) {
 //      sum+=numb;
-   
+
 //    }print(b);
 //    print(sum);
 // }
 
 // void main(){
 //   List a=[1,4,3,5,6,7];
-  
+
 //   a.sort();
 //   print(a);
 //   int b=a[a.length-2];
 //   print(b);
-  
-// }
 
+// }
 
 // void main(){
 //   int numb=5;
@@ -212,7 +197,6 @@
 
 // }
 
-
 // void main(){
 //   String name="banana";
 //   String b="a";
@@ -222,13 +206,13 @@
 //     if(name[i]==b){
 //          c++;
 //     }
-    
+
 //   }
 // print(c);
 // }
 
 // void main(){
-   
+
 //   List a=[1,4,6,3,7,5];
 //   int b=a[0];
 //   for(int numb in a){
@@ -239,8 +223,6 @@
 //   }
 //   print(b);
 // }
-
-
 
 // checking number is prime
 // void main(){
@@ -253,16 +235,14 @@
 //      }
 
 //    }
-   
+
 //     if(isPrime){
 //       print("$a is prime");
 //     }else{
 //       print("$a is not a prime");
 //     }
 
-
 // }
-
 
 // void main(){
 //  int a=1234;
@@ -274,7 +254,6 @@
 //  print(b);
 // }
 
-
 // void main(){
 //  int a=5,b=4,c=6;
 //  if(a>b&&b>c){
@@ -285,26 +264,25 @@
 //   print("$c is larger");
 //  }
 
-// } 
+// }
 
 // void main(){
-  
+
 //    List<int> numbers = [10, 5, 20, 8, 25, 18];
 //    numbers.sort();
 //    print(numbers);
 //    int c=numbers[numbers.length-2];
-  
+
 //   print(c);
 
 // }
 
-
 // void main(){
-    
+
 //     List<int> numbers = [1, 2, 3, 5, 6];
 
 //     int n=numbers.length+1;
-     
+
 //      int sum=n * (n+1)~/2;
 //       int ab=numbers.reduce((a,b)=>a+b);
 //     int missing=sum-ab;
@@ -320,7 +298,7 @@
 //   if('aeiou'.contains(ll)){
 //     vowles+=ll;
 //   }
-  
+
 //  }
 // print(vowles.length);
 // }
@@ -331,7 +309,7 @@
 //   String a="abcabcbb";
 //   int b=0;
 //   String c="";
-    
+
 //     for(int i=0;i<a.length;i++){
 //       String char=a[i];
 //        if(c.contains(char)){
@@ -340,7 +318,7 @@
 //        c+=char;
 //        b=b<c.length ? c.length:b;
 //     }
-  
+
 //    print(b);
 // }
 
@@ -348,10 +326,10 @@
 
 //   String a="listen";
 //   String b="silent";
- 
+
 //   List c=a.split("")..sort();
 //   List d=b.split('')..sort();
-   
+
 //     if(c.join()==d.join()){
 //       print('$a and $b is a anagram');
 //     }else{
@@ -359,7 +337,6 @@
 //     }
 
 // }
-
 
 // void main(){
 // String name="rihan";
@@ -378,7 +355,7 @@
 // print(even);
 // print(odd);
 // }
-  
+
 // }
 
 // void main(){
@@ -392,20 +369,19 @@
 //   String vowels="";
 //   for(int i=0;i<name.length;i++){
 
-  
 //     String letter=name[i];
 //     if('aeiou'.contains(letter)){
 //       vowels+=letter;
 //     }
-   
+
 //   } print(vowels.length);
 // }
 // void main(){
 //   List num1=[1,2,3,4,6];
 //   List num2=[2,3,4];
- 
+
 //   bool isSubset=num2.every((e)=>num1.contains(e));
- 
+
 //   if(isSubset){
 //     print('$num2 is a subset');
 //   }else{
@@ -421,7 +397,7 @@
 //     int b=a[a.length-2];
 //     print(b);
 //    }
-   
+
 // }
 
 // void main(){
@@ -440,8 +416,7 @@
 
 // int second=a[a.length-2];
 // print(second);
-  
-  
+
 // }
 
 // void main(){
@@ -464,7 +439,7 @@
 
 //   if(length %2==0){
 //     print('${name[middle-1]}${name[middle]}');
-  
+
 //   }else{
 //     print('${name[middle]}');
 //   }
@@ -479,7 +454,7 @@
 //       vowels+=letter;
 //     }
 //   }print(vowels);
-// } 
+// }
 
 // void main(){
 //   int a=1;
@@ -544,31 +519,42 @@
 //   }
 // }
 
+// bool containsDuplicate(List<int> nums) {
+//   Set<int> seen = {};  // Create an empty set to store seen numbers
 
+//   for (int num in nums) {
+//     if (seen.contains(num)) {
+//       return true;  // If the number is already in the set, it's a duplicate
+//     }
+//     seen.add(num);  // Add the number to the set
+//   }
 
-bool containsDuplicate(List<int> nums) {
-  Set<int> seen = {};  // Create an empty set to store seen numbers
-  
-  for (int num in nums) {
-    if (seen.contains(num)) {
-      return true;  // If the number is already in the set, it's a duplicate
-    }
-    seen.add(num);  // Add the number to the set
-  }
-  
-  return false;  // If no duplicates are found, return false
-}
+//   return false;  // If no duplicates are found, return false
+// }
+
+// void main() {
+//   // Example 1
+//   List<int> nums1 = [1, 2, 3, 1];
+//   print(containsDuplicate(nums1)); // Output: true
+
+//   // Example 2
+//   List<int> nums2 = [1, 2, 3, 4];
+//   print(containsDuplicate(nums2)); // Output: false
+
+//   // Example 3
+//   List<int> nums3 = [1, 1, 1, 3, 3, 4, 3, 2, 4, 2];
+//   print(containsDuplicate(nums3)); // Output: true
+// }
 
 void main() {
-  // Example 1
-  List<int> nums1 = [1, 2, 3, 1];
-  print(containsDuplicate(nums1)); // Output: true
+  List<int> nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+  int k = 0;
 
-  // Example 2
-  List<int> nums2 = [1, 2, 3, 4];
-  print(containsDuplicate(nums2)); // Output: false
-
-  // Example 3
-  List<int> nums3 = [1, 1, 1, 3, 3, 4, 3, 2, 4, 2];
-  print(containsDuplicate(nums3)); // Output: true
+  for (int i = 1; i < nums.length; i++) {
+    if (nums[i - 1] != nums[i]) {
+      k++;
+      nums[k] = nums[i];
+    }
+  }
+  print(k + 1);
 }
