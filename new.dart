@@ -636,6 +636,43 @@
 //   }
 // }
 
+// void main(){
+//   int row=5;
+//   for(int i=1;i<=row;i++){
+//     print("$i"*i);
+//   }
+ 
+// }
+
+// import 'dart:io';
+
+// void main(){
+//     int row=5;
+//     for(int i=1;i<=row;i++){
+//         for(int j=1;j<=i;j++){
+//             stdout.write(i);
+//         }
+//         print('');
+//     }
+   
+// }
+
+// void main(){
+//     int n=15;
+//     for(int i=1;i<=10;i++){
+//         print('${n*i}');
+
+//     }
+// }
+
+// import 'dart:async';
+
+// void main(){
+//     for(int i=0;i<5;i++){
+//         print(i*i*i);
+//     }
+// }
+
 void main(){
     
 }
