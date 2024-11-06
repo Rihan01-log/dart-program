@@ -546,15 +546,96 @@
 //   print(containsDuplicate(nums3)); // Output: true
 // }
 
-void main() {
-  List<int> nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
-  int k = 0;
+// void main() {
+//   List<int> nums = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4];
+//   int k = 0;
 
-  for (int i = 1; i < nums.length; i++) {
-    if (nums[i - 1] != nums[i]) {
-      k++;
-      nums[k] = nums[i];
-    }
-  }
-  print(k + 1);
+//   for (int i = 1; i < nums.length; i++) {
+//     if (nums[i - 1] != nums[i]) {
+//       k++;
+//       nums[k] = nums[i];
+//     }
+//   }
+//   print(k + 1);
+// }
+
+// void main() {
+//   String s = "Hello World";
+//   int length = 0;
+//   bool word = false;
+
+//   for (int i = 0; i < s.length; i++) {
+//     if (s[i] != ' ') {
+//       word = true;
+//       length++;
+//     } else if (word) {
+//       break;
+//     }
+//   }
+//   print(length);
+// }
+
+// //
+
+// void main(){
+//     print('first');
+//     print('second');
+
+//     Future.delayed(Duration(seconds: 3),(){
+//         print('third');
+//     });
+// }
+
+// import 'dart:io';
+
+// void main(){
+//     int a=0;
+//     int sum=0;
+//     do {
+//       print('Enter your positive number');
+//       String? input=stdin.readLineSync();
+//       if (input!=null) {
+//         int number=int.parse(input);
+//         if(number<0){
+//             a=1;
+//             break;
+//         }else{
+//            sum+=number;
+//         }
+
+//       }
+//     } while (a==0);
+//     print(sum);
+// }
+
+// void main(){
+//     List a=[11,2,3,4,5,6,6,6];
+//     List b=[];
+//     for (int i=0;i<a.length;i++) {
+//       if (!b.contains(a[i])) {
+//         b.add(a[i]);
+//         b.sort();
+//       }
+//     }
+//     print(b);
+// }
+
+// void main(){
+//     List a=[1 ,2 ,3 ,4 ,5 ,6 ,7 ,8 ,9, 10];
+//     int sum=0;
+//     for(int b in a){
+//        sum+=b;
+//     }
+//     print(sum);
+// }
+
+// void main() {
+//   int row = 5;
+//   for (int i = 1; i <= row; i++) {
+//     print('*' * i);
+//   }
+// }
+
+void main(){
+    
 }
