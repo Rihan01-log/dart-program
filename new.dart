@@ -673,6 +673,104 @@
 //     }
 // }
 
-void main(){
+// void main(){
+// print('first');
+// print('second');
+// Future.delayed(Duration(seconds: 3),()=>print('third'));
+// }
+
+
+// void main(){
+//   String n='Hello world';
+//    String b=n.substring(0, 5);
+//   print(b);    
+// }
+
+// void main(){
+//     int rows=4;
+//     for(int i=1;i<=rows;i++){
+//         String row='';
+//         for(int j=0;j<i;j++){
+//             row+=String.fromCharCode(65+j);
+//         }
+//         print(row);
+//     }
+// }
+
+// void main(){
+//     String a='ABCDE';
+//     int row=5;
+//     for(int i=1;i<=row;i++){
+//         print(a.substring(0,i));
+
+//     }
+// }
+
+// void main(){
+//     int a=10;
+//     do {
+//       print(a);
+//       a--;
+//     } while (a>=1);
+// }
+
+// void main(){
+//     int i=1;
+//     while (i<=10) {
+//       print(i);
+//       i++;
+//     }
+// }
+
+// void main(){
+//     List num=[1,2,3,1,1,3];
+//     int output=0;
+//   for(var i=0;i<num.length;i++){
+//     for (var j = 0; j<num.length; j++) {
+//         if(num[i]==num[j]&&i<j){
+//             output++;
+//         }
+      
+//     }
+//     print(output);
+//   }
+
+// }
+
+// stream
+// future
+// asyn await
+// null safety
+// map set
+// spread 
+// final cont
+// var dynamic
+// lifecycle
+// widget tree
+// container
+// hive
+// shared
+// sflite
+// hive
+// local data base & storage
+// void main
+// mixin
+// widget
+// stl and  stf
+// isolates
+// thread and multithread
+// hot relod and 
+// setset initstate
+// navigator
+// validator
+// alert box
+// buttons
+// query
+// sql and nosql
+// build context and context
+// plugins and packge
+// 
+
+// void main(){
     
-}
+// }
