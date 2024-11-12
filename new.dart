@@ -788,6 +788,7 @@ class Solution {
     for (int i = 0; i < words.length; i++) {
       if (vowels.contains(words[i][0])) {
         words[i] = words[i] + 'ma';
+        
       } else {
         words[i] = words[i].substring(1) + words[i][0] + 'ma';
       }
@@ -804,5 +805,6 @@ void main() {
   String sentence = "I speak Goat Latin";
   String goatLatinSentence = solution.toGoatLatin(sentence);
 
-  print(goatLatinSentence);  
+  print(goatLatinSentence); 
+   
 }
