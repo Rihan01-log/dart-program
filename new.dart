@@ -774,3 +774,35 @@
 // void main(){
     
 // }
+
+// void main(){
+//     String a='Rihan rasheed';
+//     String b=a.split(' ').join('');
+//     print(b);
+// }
+
+class Solution {
+  String toGoatLatin(String sentence) {
+    final vowels = {'a', 'e', 'i', 'o', 'u', 'A', 'E', 'I', 'O', 'U'};
+    final words = sentence.split(' ');
+    for (int i = 0; i < words.length; i++) {
+      if (vowels.contains(words[i][0])) {
+        words[i] = words[i] + 'ma';
+      } else {
+        words[i] = words[i].substring(1) + words[i][0] + 'ma';
+      }
+      words[i] += 'a' * (i + 1);
+    }
+    return words.join(' ');
+  }
+}
+
+void main() {
+  Solution solution = Solution();
+
+  // Example sentence
+  String sentence = "I speak Goat Latin";
+  String goatLatinSentence = solution.toGoatLatin(sentence);
+
+  print(goatLatinSentence);  
+}
